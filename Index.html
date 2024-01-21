@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Update</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="page-header">
+        <h1 class="header-hd">Event 1</h1>
+        <p class="header-description">
+          Number of available seats: <strong>23</strong>
+        </p>
+      </header>
+      <main class="page-main">
+        <article class="container">
+          <section class="sub-img">
+            <img
+              class="event-img"
+              src="https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV2ZW50fGVufDB8fDB8fHww"
+              alt="event-1 image"
+              width="250px"
+              height="250px"
+            />
+          </section>
+          <section class="sub-entry-form">
+            <form class="event-entry-form" action="#">
+              <div class="form-el--1">
+                <label class="lbl" for="uname">Name:</label>
+                <input
+                  class="input"
+                  type="text"
+                  name="UserName"
+                  id="uname"
+                  placeholder="Enter your Name"
+                />
+              </div>
+              <div class="form-el--2">
+                <label class="lbl" for="uemail">Email:</label>
+                <input
+                  class="input"
+                  type="email"
+                  name="UserEmail"
+                  id="uemail"
+                  placeholder="Enter your Email"
+                />
+              </div>
+              <div class="form-el--3">
+                <label class="lbl" for="uph-no">Phone Number:</label>
+                <input
+                  class="input"
+                  type="text"
+                  name="UserPhoneo"
+                  id="uph-no"
+                  placeholder="Enter your Phone Number"
+                />
+              </div>
+              <div class="form-el--4">
+                <label class="lbl" for="n-seats">Number of Seats:</label>
+                <select class="dropdwn-seats" name="UserSeats" id="n-seats">
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                </select>
+              </div>
+              <div class="form-el--5">
+                <label class="lbl" for="uname--2">Name of Attendee 2 :</label>
+                <input
+                  class="input"
+                  type="text"
+                  name="attendee-2"
+                  id="uname--2"
+                />
+              </div>
+              <div class="btn-container">
+                <button class="btn btn-submit" type="submit">Submit</button>
+                <button class="btn btn-cancel" type="reset">Cancel</button>
+              </div>
+            </form>
+          </section>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
